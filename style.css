@@ -8,6 +8,7 @@ nav {
 
 
     flex-direction: row;
+    justify-content: flex-start;
     width: 100%;
     font-size: 18px;
     background-color: black;
@@ -31,3 +32,22 @@ nav {
     padding: 8px;
     border-radius: 15px;
    }
+
+  
+
+
+ form {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+ }
+
+ @media screen and (max-width: 580px ) {
+
+    #imgg {
+       
+        height: 58%;
+        width: 58%;
+   } }
